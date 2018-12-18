@@ -1,5 +1,8 @@
-$(document).ready(function() {
+
 // Random number has to be generated //
+    var randomNumber = Math.floor(Math.random() * 120) + 19;
+    console.log(randomNumber);
+
 
 // Wins and Losses have to be recorded //
 
@@ -11,4 +14,5 @@ $(document).ready(function() {
 
 // Gem values must be reassigned after every round //
 
-})
+//
+
