@@ -1,3 +1,4 @@
+$(document).ready(function() {
 // Random number has to be generated //
 
 // Wins and Losses have to be recorded //
@@ -9,3 +10,5 @@
 // Gem values must appear on Your Total Score //
 
 // Gem values must be reassigned after every round //
+
+})
