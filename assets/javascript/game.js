@@ -11,13 +11,22 @@
     console.log(randomNumber);
     document.querySelector("#random-number").innerHTML = randomNumber;
     });
-// Random number onClick event when generated //
           
-            
+// Wins and Losses have to be recorded // possible code for when results can be displayed (HOLD)
+
+function numberGuessed(result) {
+
+    if (result === randomNumber) {
+        wins++;
+        $("#wins").html("<h3>" + wins + "</h3>");
+      }
+
+      else {
+        losses++;
+        $("#losses").html("<h3>" + losses + "</h3>");
+      }
     
-
-// Wins and Losses have to be recorded //
-
+}
 // If won/loss random number has to restart //
 
 // Gems need to be assign values and be click-able buttons //
@@ -27,6 +36,6 @@
 // Gem values must be reassigned after every round //
 
 // connect to HTML //
-  
+
 
         // 
