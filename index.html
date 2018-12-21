@@ -19,6 +19,8 @@
 
 </head>
 <body>
+
+
     <div class="jumbotron">
             <h1 class="text-center">Crystals Collector Game!</h1>
             <h4 class="text-center">
@@ -37,7 +39,9 @@
             <div class="card mb-2">
                     <h3 class="card-header">Random Number</h3>
                 <div class="card-body text-center">
-                    <div id="random-number"></div>
+                    <div>
+                        <div id="random-number"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -45,7 +49,9 @@
             <div class="card mb-2">
                     <h3 class="card-header">Your Total Score</h3>
                 <div class="card-body text-center">
-                    <h1 id="your-total-score">???</h1>
+                    <div>
+                        <h1 id="your-total-score"></h1>
+                    </div>
                 </div>
             </div>
         </div>
@@ -75,29 +81,35 @@
 
 <!-- Crystal Buttons! -->
 
+<div class="container">
+
+</div>
+
+
+
+<div class="crystals">
     <div class="row">
         <div class="col-md-3">
+            <div id="buttons"></div>
             <div class="card" style="width: 18rem;">
-                <img id="gem-1" class="card-img" src="assets/images/gem_1.jpg" alt="gem 1">
+                <button id="crystal-1"> <img class="card-img" src="assets/images/gem_1.jpg" alt="crystal 1"></button>
+            </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <button id="crystal-2"> <img class="card-img" src="assets/images/gem_2.jpg" alt="crystal 2"></button>
+            </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <button id="crystal-3"> <img class="card-img" src="assets/images/gem_3.jpg" alt="crystal 3"></button>
             </div>
         </div>
         <div class="col-md-3">
             <div class="card" style="width: 18rem;">
-                <img id="gem-2" class="card-img" src="assets/images/gem_2.jpg" alt="gem 2">
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card" style="width: 18rem;">
-                <img id="gem-3" class="card-img" src="assets/images/gem_3.jpg" alt="gem 3">
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="card" style="width: 18rem;">
-                <img id="gem-4" class="card-img" src="assets/images/gem_4.jpg" alt="gem 4">
+                <button id="crystal-4"> <img class="card-img" src="assets/images/gem_4.jpg" alt="crystal 4"></button>
             </div>
         </div>
     </div>
-
+</div>
     
 </body>
 </html>
