@@ -38,10 +38,10 @@
 
         $(".container").append(container);
 
-            
                 
     
-    // Crystal must appear on Your Total Score //
+    
+        // Crystal must appear on Your Total Score //
 
     // $("#crystal-1").on("click", function() {
     //     yourTotalScore++;
